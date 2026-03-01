@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="200" height="300">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0c1a"/>
+      <stop offset="100%" stop-color="#050308"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="35%" r="50%">
+      <stop offset="0%" stop-color="#f5a623" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="200" height="300" fill="url(#bg1)"/>
+  <!-- Glow -->
+  <rect width="200" height="300" fill="url(#glow1)"/>
+  <!-- Spine strip -->
+  <rect x="0" y="0" width="8" height="300" fill="#f5a623"/>
+  <!-- Decorative circle -->
+  <circle cx="100" cy="105" r="52" fill="none" stroke="#f5a623" stroke-width="1" opacity="0.4"/>
+  <circle cx="100" cy="105" r="40" fill="none" stroke="#f5a623" stroke-width="0.5" opacity="0.25"/>
+  <!-- Abstract orbit lines -->
+  <ellipse cx="100" cy="105" rx="52" ry="18" fill="none" stroke="#f5a623" stroke-width="0.7" opacity="0.3"/>
+  <!-- Title -->
+  <text x="100" y="185" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="14" font-weight="700" fill="#f0ece4">Something</text>
+  <text x="100" y="203" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="14" font-weight="700" fill="#f0ece4">Like Gravity</text>
+  <!-- Divider -->
+  <line x1="60" y1="215" x2="140" y2="215" stroke="#f5a623" stroke-width="0.8" opacity="0.6"/>
+  <!-- Genre -->
+  <text x="100" y="228" text-anchor="middle" font-family="Courier New, monospace" font-size="7" fill="#f5a623" letter-spacing="2">SELF-HELP</text>
+  <!-- Author -->
+  <text x="100" y="272" text-anchor="middle" font-family="Courier New, monospace" font-size="8.5" fill="#c4bfb5" letter-spacing="1.5">AMARA NOORS</text>
+</svg>

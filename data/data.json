@@ -1,0 +1,156 @@
+{
+  "_readme":  "╔══════════════════════════════════════════════════════╗",
+  "_readme2": "║   AMARA NOORS — FULL SITE CONTROL FILE              ║",
+  "_readme3": "║   Edit this file to change ANYTHING on the website. ║",
+  "_readme4": "║   No coding needed. Save the file, reload browser.  ║",
+  "_readme5": "╚══════════════════════════════════════════════════════╝",
+
+  "site": {
+    "author":           "Amara Noors",
+    "tagline":          "Words that rewire how you see yourself.",
+    "logo":             "img/AN.png",
+    "logoAlt":          "Amara Noors logo",
+    "logoWidth":        48,
+    "logoHeight":       48,
+    "heroHeading":      "Stories That Break You Open",
+    "heroSubtext":      "Words that rewire how you see yourself — and what you're capable of becoming.",
+    "formspreeEndpoint":"https://formspree.io/f/xjgedred",
+    "scarcityBarText":  "🔥 Limited Offer — Buy Any Book for $7.99 — Free Chapter Included",
+
+    "stats": [
+      { "number": "12K",  "label": "Readers"  },
+      { "number": "4.9",  "label": "★ Rating"  },
+      { "number": "3",    "label": "Books"     }
+    ],
+
+    "social": {
+      "youtube":   { "url": "https://youtube.com/@amaranoors",   "handle": "@amaranoors", "subscribers": "48K", "videos": "120",  "views": "2.4M", "description": "Deep-dives into the philosophy behind the books. New video every week." },
+      "instagram": { "url": "https://instagram.com/amaranoors",  "handle": "@amaranoors", "followers": "31K",   "posts": "890",   "engagement": "4.2%", "description": "Daily quotes, writing process and behind-the-scenes of the creative life." }
+    },
+
+    "bundle": {
+      "show":          true,
+      "title":         "All 3 Books",
+      "description":   "The full Amara Noors library — save over 30% when you grab every title together.",
+      "price":         "$19.99",
+      "priceOld":      "$23.97",
+      "buyLink":       "https://www.etsy.com/shop/amaranoors",
+      "buyButtonText": "Buy Bundle on Etsy",
+      "buyNewTab":     true,
+      "tag":           "Complete Bundle",
+      "coverImages":   ["img/book1.svg", "img/book2.svg", "img/book3.svg"]
+    }
+  },
+
+  "books": [
+    {
+      "_note": "──────── BOOK 1 ────────",
+      "id":      1,
+      "visible": true,
+
+      "title":           "Something Like Gravity",
+      "genre":           "YA Romance · Self-Help",
+      "tag":             "Bestseller",
+
+      "description":     "A raw exploration of how invisible forces shape our choices — and how to bend them in your favour.",
+      "longDescription": "Something Like Gravity dives deep into the unseen patterns that govern our decisions — fear, identity, belief, and the stories we tell ourselves. Amara Noors weaves philosophy, psychology and personal narrative into a guide that doesn't just inspire — it rewires.",
+
+      "price":           "$9.99",
+      "priceOld":        "",
+
+      "image":           "img/book1.svg",
+      "imageAlt":        "Something Like Gravity book cover",
+      "imageWidth":      200,
+      "imageHeight":     300,
+
+      "buyLink":         "https://www.etsy.com/listing/4464987485/something-like-gravity-ya-romance-book?ref=listings_manager_grid",
+      "buyButtonText":   "Buy on Etsy — $9.99",
+      "buyNewTab":       true,
+
+      "previewPdf":      "preview/book1-preview.pdf",
+      "showPreview":     true,
+      "previewLabel":    "Free Chapter",
+
+      "featured": true
+    },
+
+    {
+      "_note": "──────── BOOK 2 ────────",
+      "id":      2,
+      "visible": true,
+
+      "title":           "Journey Of Success",
+      "genre":           "Personal Development",
+      "tag":             "New Release",
+
+      "description":     "The unfiltered roadmap from where you are to where you've always known you could be.",
+      "longDescription": "Journey Of Success strips away the clichés and gets honest about what building a meaningful life actually requires. Part memoir, part manual — this book walks with you through the discomfort of change and out the other side.",
+
+      "price":           "$9.99",
+      "priceOld":        "",
+
+      "image":           "img/book2.svg",
+      "imageAlt":        "Journey Of Success book cover",
+      "imageWidth":      200,
+      "imageHeight":     300,
+
+      "buyLink":         "https://www.etsy.com/listing/4439712782/journey-success-ebook-self-development?ref=listings_manager_grid",
+      "buyButtonText":   "Buy on Etsy — $9.99",
+      "buyNewTab":       true,
+
+      "previewPdf":      "preview/book2-preview.pdf",
+      "showPreview":     true,
+      "previewLabel":    "Free Chapter",
+
+      "featured": true
+    },
+
+    {
+      "_note": "──────── BOOK 3 ────────",
+      "id":      3,
+      "visible": true,
+
+      "title":           "Transform Your Mindset",
+      "genre":           "Motivation · Digital Guide",
+      "tag":             "Top Rated",
+
+      "description":     "Dismantle the thought patterns holding you back. Build the mind that builds the life.",
+      "longDescription": "Transform Your Mindset is a practical, unflinching examination of cognitive habits and how to replace them. Drawing from neuroscience, stoic philosophy and lived experience, Amara shows you the exact shifts that make transformation not just possible — but inevitable.",
+
+      "price":           "$9.99",
+      "priceOld":        "",
+
+      "image":           "img/book3.svg",
+      "imageAlt":        "Transform Your Mindset book cover",
+      "imageWidth":      200,
+      "imageHeight":     300,
+
+      "buyLink":         "https://www.etsy.com/listing/4439740937/transform-your-mindset-digital-guide?ref=listings_manager_grid",
+      "buyButtonText":   "Buy on Etsy — $9.99",
+      "buyNewTab":       true,
+
+      "previewPdf":      "preview/book3-preview.pdf",
+      "showPreview":     true,
+      "previewLabel":    "Free Chapter",
+
+      "featured": true
+    }
+  ],
+
+  "_howToEdit": {
+    "1 ADD a new book":        "Copy any book {} block. Paste it after the last book (before the ] bracket). Change all fields. Set  'visible': true",
+    "2 HIDE a book":           "Set  'visible': false  — book disappears without deleting the data.",
+    "3 CHANGE buy link":       "Set  buyLink  to any URL — Etsy, Gumroad, PayPal, your own site.",
+    "4 CHANGE button text":    "Set  buyButtonText  e.g.  'Get it Now'  or  'Buy $12.99'.",
+    "5 CHANGE price":          "Edit  price. Add  priceOld  with old value to show a strikethrough price.",
+    "6 CHANGE image":          "Put file in img/ folder. Set  image  to  'img/yourfile.jpg'",
+    "7 CHANGE PDF preview":    "Put file in preview/ folder. Set  previewPdf  to  'preview/yourfile.pdf'. Set  showPreview: false  to hide the preview button.",
+    "8 Open link new tab":     "Set  buyNewTab: true  for external links (Etsy etc). Set  false  for same tab.",
+    "9 CHANGE hero text":      "Edit  site.heroHeading  and  site.heroSubtext.",
+    "10 CHANGE stats":         "Edit the  site.stats  array — number and label for each stat bubble.",
+    "11 CHANGE social links":  "Edit  site.social  — url, handle, and counts for YouTube / Instagram / X.",
+    "12 HIDE bundle":          "Set  site.bundle.show  to  false.",
+    "13 CHANGE logo":          "Replace AN.png in the img/ folder, or set  site.logo  to a new path.",
+    "14 CHANGE scarcity bar":  "Edit  site.scarcityBarText  — the text in the top gold strip."
+  }
+}
